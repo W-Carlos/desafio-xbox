@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #9BF00B;
+    --dark: #0C0C0C;
+    --gray: #777777;
+    --gray-light: #C0C0C0;
+    --light: #FFFFFF;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--dark);
+}
+
+.container {
+    margin-left: 34.6rem;
+    margin-right: 34.6rem;
+}
