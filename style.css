@@ -199,7 +199,7 @@ nav .button-header {
     padding-bottom: 30.0rem;
 }
 
-#questions .questions-content h2 {
+#questions .questions-content .title-questions {
     font-style: normal;
     font-weight: 600;
     font-size: 4.8rem;
@@ -209,11 +209,11 @@ nav .button-header {
     margin-bottom: 6.0rem;
 }
 
-#questions .questions-content h2 span {
+#questions .questions-content .title-questions span {
     color: var(--primary);
 }
 
-.questions-content .common-questions .question {
+/* .questions-content .common-questions .question {
     display: flex;
     justify-content: space-between;
 }
@@ -225,9 +225,9 @@ nav .button-header {
     line-height: 150%;
 
     color: var(--light);
-}
+} */
 
-.questions-content .common-questions .answer {
+/* .questions-content .common-questions .answer {
     font-style: normal;
     font-weight: 500;
     font-size: 1.8rem;
@@ -235,7 +235,7 @@ nav .button-header {
 
     color: var(--gray-light);
     
-    /* margin: 3.6rem 0 3.1rem 3.0rem; */
+    margin: 3.6rem 0 3.1rem 3.0rem;
     display: none;
 }
 
@@ -243,7 +243,7 @@ nav .button-header {
     display: ;
 }*/
 
-.questions-content .common-questions #button {
+/*.questions-content .common-questions #button {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -253,4 +253,11 @@ nav .button-header {
     border: 2px solid #2E2E2E;
     width: 100%;
     margin-top: 3.1rem;
+} */
+
+.accordion-header .accordion-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 150%;
 }
