@@ -213,51 +213,86 @@ nav .button-header {
     color: var(--primary);
 }
 
-/* .questions-content .common-questions .question {
-    display: flex;
-    justify-content: space-between;
+.question-content {
+    margin-top: 4.3rem;
 }
 
-.questions-content .common-questions .question p {
+.question-content button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    background-color: transparent;
+    border: none;
+
     font-style: normal;
     font-weight: 500;
-    font-size: 2.4rem;
+    font-size: 24px;
     line-height: 150%;
 
-    color: var(--light);
-} */
+    color: #FFFFFF;
+}
 
-/* .questions-content .common-questions .answer {
+.question-content .answer {
     font-style: normal;
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 150%;
 
     color: var(--gray-light);
-    
-    margin: 3.6rem 0 3.1rem 3.0rem;
-    display: none;
+
+    margin-top: 2.6rem;
+    margin-bottom: 2.1rem;
+    margin-left: 2rem;
+
+    overflow: hidden;
 }
 
-/*.show-answer {
-    display: ;
-}*/
-
-/*.questions-content .common-questions #button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.questions-content .common-questions .divisor {
+.questions-content .divisor {
     border: 2px solid #2E2E2E;
     width: 100%;
-    margin-top: 3.1rem;
-} */
+    /* margin-top: 3.1rem; */
+}
 
-.accordion-header .accordion-button {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*bootstrap*/
+/* .accordion-header .accordion-button {
     font-style: normal;
     font-weight: 500;
     font-size: 2.4rem;
     line-height: 150%;
+
+    color: #FFFFFF;
+    background-color: #0C0C0C;
 }
+
+
+.accordion-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 150%;
+
+    background-color: transparent;
+    color: #C0C0C0;
+} */
+

@@ -82,62 +82,52 @@
                     <span>Perguntas</span> frequentes
                 </h2>
 
-                <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <div class="question">
+                    <div class="question-content">
+                        <button onclick="showAnswer()">
                             Meus jogos anteriores do Xbox vão funcionar no Xbox Series X?
-                        </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            O que está incluído no Xbox Series X?
-                        </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Como sei se minha TV é compatível com 4K?
-                        </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                      </div>
-                    </div>
-                  </div>
 
-                <div class="common-questions">
-                    <!-- <div class="question">
-                        <p>
-                            Meus jogos anteriores do Xbox vão funcionar no Xbox Series X?
+                            <img src="./assets/arrow.svg" alt="">
+                        </button>
+
+                        <p class="answer" id="answer-one">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
-                        <button id="button">
-                            <img src="./assets/arrow.svg" alt="arrow">
-                        </button>
+
+                        <div class="divisor"></div>
                     </div>
 
-                    <p class="answer">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
+                    <div class="question-content">
+                        <button onclick="showAnswerTwo()">
+                            Meus jogos anteriores do Xbox vão funcionar no Xbox Series X?
 
-                    <div class="divisor"></div> -->
+                            <img src="./assets/arrow.svg" alt="">
+                        </button>
 
-                    
-                    
-                </div>
+                        <p class="answer" id="answer-two">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+
+                        <div class="divisor"></div>
+                    </div>
+
+                    <div class="question-content">
+                        <button onclick="showAnswerThree()">
+                            Meus jogos anteriores do Xbox vão funcionar no Xbox Series X?
+
+                            <img src="./assets/arrow.svg" alt="">
+                        </button>
+
+                        <p class="answer" id="answer-three">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+                  
                 
             </div>
         </section>
     </main>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
 </html>
