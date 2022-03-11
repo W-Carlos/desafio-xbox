@@ -22,12 +22,14 @@ a {
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
     background-color: var(--dark);
+    -webkit-font-smoothing: antialiased;
 }
 
 .container {
@@ -36,23 +38,44 @@ body {
     margin-right: auto;
 }
 
+/*Scrollbar*/
+body::-webkit-scrollbar {
+    width: 13px;             
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--gray);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--primary);    
+    border-radius: 20px;       
+  }
+
 /* ================== HEADER ==================*/
 #header {
     display: flex;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    height: 9.0rem;
+    align-items: center;
 }
 
 nav {
     display: flex;
-    width: 100%;
+    /*width: 100%;*/
     justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .menu ul {
     display: flex;
     gap: 4.8rem;
+    margin: 0;
 }
 
 .menu li a {
@@ -72,8 +95,8 @@ nav .button-header {
     background-color: var(--primary);
 
     font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
     text-transform: uppercase;
     color: var(--dark);
 }
@@ -247,6 +270,7 @@ nav .button-header {
     margin-left: 2rem;
 
     overflow: hidden;
+    transition: all 0.8s linear;
 }
 
 .questions-content .divisor {
@@ -255,44 +279,31 @@ nav .button-header {
     /* margin-top: 3.1rem; */
 }
 
+/* ================== FOOTER ==================*/
 
+.footer {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footer-paragraph {
+    display: flex;
+    align-items: center;
+    gap: 5.6rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*bootstrap*/
-/* .accordion-header .accordion-button {
+.footer p {
     font-style: normal;
-    font-weight: 500;
-    font-size: 2.4rem;
+    font-weight: 400;
+    font-size: 1.8rem;
     line-height: 150%;
-
-    color: #FFFFFF;
-    background-color: #0C0C0C;
+    margin: 0;
 }
 
 
-.accordion-item {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.8rem;
-    line-height: 150%;
 
-    background-color: transparent;
-    color: #C0C0C0;
-} */
+
 
